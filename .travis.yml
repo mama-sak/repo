@@ -1,4 +1,5 @@
 language: bash 
 script: 
-- echo "Travis CIでテスト開始"
+- echo hello
+- echo Travis CI test in .travis.yml 
 - ./gcd_test.sh
